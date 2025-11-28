@@ -27,7 +27,7 @@ class _Halaman3State extends State<Halaman3> {
         }
 
         return Scaffold(
-          appBar: AppBar(title: const Text("Halaman Input Angka")),
+          appBar: AppBar(title: const Text("Halaman Increment")),
           body: Center(
             child: Padding(
               padding: const EdgeInsets.all(20.0),
