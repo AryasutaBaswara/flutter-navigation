@@ -102,6 +102,16 @@ class _HomePageState extends State<HomePage> {
                     onTap: () => _navigateAndRefresh('/increment'),
                   ),
                 ),
+                const SizedBox(width: 20),
+                Expanded(
+                  child: _CustomNavButton(
+                    title: "Halaman 3",
+                    icon: Icons.explore,
+                    color: const Color.fromARGB(255, 4, 255, 46),
+                    iconColor: Colors.blue.shade700,
+                    onTap: () => _navigateAndRefresh('/halaman3'),
+                  ),
+                ),
               ],
             ),
           ),
