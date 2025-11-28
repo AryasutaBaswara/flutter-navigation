@@ -106,7 +106,7 @@ class _Halaman5State extends State<Halaman5> {
                     onPressed: () {
                       Navigator.pushNamed(context, '/halaman4');
                     },
-                    label: const Text("Kembali ke Halaman Multiplication"),
+                    label: const Text("Kembali ke Halaman Decrement"),
                   ),
                 ],
               ),
